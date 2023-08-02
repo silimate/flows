@@ -1,2 +1,2 @@
-# flows
+# Flows
 Silimate flow repository
