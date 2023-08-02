@@ -1,0 +1,251 @@
+{
+    "nodes": [
+        {
+            "width": 150,
+            "height": 127,
+            "ariaLabel": "Status: success",
+            "dragging": false,
+            "id": "open-verilator-compile-1690810704710",
+            "position": {
+                "x": 299.79999999999995,
+                "y": 389
+            },
+            "positionAbsolute": {
+                "x": 299.79999999999995,
+                "y": 389
+            },
+            "selected": false,
+            "style": {
+                "backgroundColor": "#03925e"
+            },
+            "type": "open-verilator-compile"
+        },
+        {
+            "width": 150,
+            "height": 127,
+            "ariaLabel": "Status: success",
+            "dragging": false,
+            "id": "open-verilator-compile-1690810704711",
+            "position": {
+                "x": 300.4,
+                "y": 249
+            },
+            "positionAbsolute": {
+                "x": 300.4,
+                "y": 249
+            },
+            "selected": false,
+            "style": {
+                "backgroundColor": "#03925e"
+            },
+            "type": "open-verilator-compile"
+        },
+        {
+            "width": 150,
+            "height": 127,
+            "ariaLabel": "Status: success",
+            "dragging": false,
+            "id": "open-verilator-compile-1690798354805",
+            "position": {
+                "x": 300.8583990122918,
+                "y": 672.4598091362999
+            },
+            "positionAbsolute": {
+                "x": 300.8583990122918,
+                "y": 672.4598091362999
+            },
+            "selected": false,
+            "style": {
+                "backgroundColor": "#03925e"
+            },
+            "type": "open-verilator-compile"
+        },
+        {
+            "width": 150,
+            "height": 127,
+            "ariaLabel": "Status: success",
+            "dragging": false,
+            "id": "open-verilator-compile-1690798346102",
+            "position": {
+                "x": 300.429199506146,
+                "y": 529.401410124008
+            },
+            "positionAbsolute": {
+                "x": 300.429199506146,
+                "y": 529.401410124008
+            },
+            "selected": false,
+            "style": {
+                "backgroundColor": "#03925e"
+            },
+            "type": "open-verilator-compile"
+        },
+        {
+            "width": 150,
+            "height": 127,
+            "ariaLabel": "Status: success",
+            "dragging": false,
+            "id": "open-verilator-compile-1690798339304",
+            "position": {
+                "x": 300,
+                "y": 109
+            },
+            "positionAbsolute": {
+                "x": 300,
+                "y": 109
+            },
+            "selected": false,
+            "style": {
+                "backgroundColor": "#03925e"
+            },
+            "type": "open-verilator-compile"
+        },
+        {
+            "width": 150,
+            "height": 158,
+            "ariaLabel": "Status: success",
+            "data": {
+                "git_branch": "main",
+                "git_clone_depth": "1",
+                "git_commit": "HEAD",
+                "git_url": "https://github.com/silimate/DACTests",
+                "inputMappings": {
+                    "asymmetric.cpp": "asymmetric.cpp",
+                    "constant.cpp": "constant.cpp",
+                    "design.v": "random_dac.v",
+                    "fadeout.cpp": "fadeout.cpp",
+                    "sine.cpp": "sine.cpp",
+                    "sweep.cpp": "sweep.cpp",
+                    "vectors.raw": "Slide.raw"
+                }
+            },
+            "dragging": false,
+            "id": "input-files-from-git-1690798150487",
+            "position": {
+                "x": -158.26422441769307,
+                "y": 361.57303186401646
+            },
+            "positionAbsolute": {
+                "x": -158.26422441769307,
+                "y": 361.57303186401646
+            },
+            "selected": false,
+            "style": {
+                "backgroundColor": "#03925e"
+            },
+            "type": "input-files-from-git-1690798150487"
+        }
+    ],
+    "edges": [
+        {
+            "id": "autoconnect__open-verilator-compile-1690810704711-vectors.raw-input-files-from-git-1690798150487-vectors.raw",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "vectors.raw",
+            "target": "open-verilator-compile-1690810704711",
+            "targetHandle": "vectors.raw"
+        },
+        {
+            "id": "autoconnect__open-verilator-compile-1690810704711-design.v-input-files-from-git-1690798150487-design.v",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "design.v",
+            "target": "open-verilator-compile-1690810704711",
+            "targetHandle": "design.v"
+        },
+        {
+            "id": "autoconnect__open-verilator-compile-1690810704710-vectors.raw-input-files-from-git-1690798150487-vectors.raw",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "vectors.raw",
+            "target": "open-verilator-compile-1690810704710",
+            "targetHandle": "vectors.raw"
+        },
+        {
+            "id": "autoconnect__open-verilator-compile-1690810704710-design.v-input-files-from-git-1690798150487-design.v",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "design.v",
+            "target": "open-verilator-compile-1690810704710",
+            "targetHandle": "design.v"
+        },
+        {
+            "id": "autoconnect__open-verilator-compile-1690798339304-vectors.raw-input-files-from-git-1690798150487-vectors.raw",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "vectors.raw",
+            "target": "open-verilator-compile-1690798339304",
+            "targetHandle": "vectors.raw"
+        },
+        {
+            "id": "autoconnect__open-verilator-compile-1690798339304-design.v-input-files-from-git-1690798150487-design.v",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "design.v",
+            "target": "open-verilator-compile-1690798339304",
+            "targetHandle": "design.v"
+        },
+        {
+            "id": "autoconnect__open-verilator-compile-1690798346102-vectors.raw-input-files-from-git-1690798150487-vectors.raw",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "vectors.raw",
+            "target": "open-verilator-compile-1690798346102",
+            "targetHandle": "vectors.raw"
+        },
+        {
+            "id": "autoconnect__open-verilator-compile-1690798346102-design.v-input-files-from-git-1690798150487-design.v",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "design.v",
+            "target": "open-verilator-compile-1690798346102",
+            "targetHandle": "design.v"
+        },
+        {
+            "id": "autoconnect__open-verilator-compile-1690798354805-vectors.raw-input-files-from-git-1690798150487-vectors.raw",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "vectors.raw",
+            "target": "open-verilator-compile-1690798354805",
+            "targetHandle": "vectors.raw"
+        },
+        {
+            "id": "autoconnect__open-verilator-compile-1690798354805-design.v-input-files-from-git-1690798150487-design.v",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "design.v",
+            "target": "open-verilator-compile-1690798354805",
+            "targetHandle": "design.v"
+        },
+        {
+            "id": "reactflow__edge-input-files-from-git-1690798150487asymmetric.cpp-open-verilator-compile-1690798339304testbench.cpp",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "asymmetric.cpp",
+            "target": "open-verilator-compile-1690798339304",
+            "targetHandle": "testbench.cpp"
+        },
+        {
+            "id": "reactflow__edge-input-files-from-git-1690798150487constant.cpp-open-verilator-compile-1690810704711testbench.cpp",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "constant.cpp",
+            "target": "open-verilator-compile-1690810704711",
+            "targetHandle": "testbench.cpp"
+        },
+        {
+            "id": "reactflow__edge-input-files-from-git-1690798150487fadeout.cpp-open-verilator-compile-1690810704710testbench.cpp",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "fadeout.cpp",
+            "target": "open-verilator-compile-1690810704710",
+            "targetHandle": "testbench.cpp"
+        },
+        {
+            "id": "reactflow__edge-input-files-from-git-1690798150487sine.cpp-open-verilator-compile-1690798346102testbench.cpp",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "sine.cpp",
+            "target": "open-verilator-compile-1690798346102",
+            "targetHandle": "testbench.cpp"
+        },
+        {
+            "id": "reactflow__edge-input-files-from-git-1690798150487sweep.cpp-open-verilator-compile-1690798354805testbench.cpp",
+            "source": "input-files-from-git-1690798150487",
+            "sourceHandle": "sweep.cpp",
+            "target": "open-verilator-compile-1690798354805",
+            "targetHandle": "testbench.cpp"
+        }
+    ],
+    "viewport": {
+        "x": 316.2838384270741,
+        "y": -67.56322367454374,
+        "zoom": 0.9071688577314271
+    }
+}
