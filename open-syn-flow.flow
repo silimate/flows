@@ -1,0 +1,124 @@
+{
+    "nodes": [
+        {
+            "width": 150,
+            "height": 64,
+            "id": "log-importer-1692309904268",
+            "ariaLabel": "Status: undefined",
+            "type": "log-importer",
+            "position": {
+                "x": 585,
+                "y": 218
+            },
+            "selected": false,
+            "positionAbsolute": {
+                "x": 585,
+                "y": 218
+            },
+            "dragging": false
+        },
+        {
+            "width": 150,
+            "height": 80,
+            "id": "openroad-metrics-1692309893709",
+            "ariaLabel": "Status: undefined",
+            "type": "openroad-metrics",
+            "position": {
+                "x": 586,
+                "y": 326
+            },
+            "selected": false,
+            "positionAbsolute": {
+                "x": 586,
+                "y": 326
+            },
+            "dragging": false
+        },
+        {
+            "width": 150,
+            "height": 176,
+            "id": "openroad-yosys-synthesis-1692309880919",
+            "ariaLabel": "Status: undefined",
+            "type": "openroad-yosys-synthesis",
+            "position": {
+                "x": 350,
+                "y": 200
+            },
+            "selected": false,
+            "positionAbsolute": {
+                "x": 350,
+                "y": 200
+            },
+            "dragging": false
+        },
+        {
+            "width": 150,
+            "height": 80,
+            "id": "input-files-from-git-1692309848356",
+            "ariaLabel": "Status: undefined",
+            "type": "input-files-from-git-1692309848356",
+            "position": {
+                "x": 108,
+                "y": 218
+            },
+            "selected": false,
+            "dragging": false,
+            "positionAbsolute": {
+                "x": 108,
+                "y": 218
+            },
+            "data": {
+                "git_branch": "main",
+                "git_clone_depth": "1",
+                "git_commit": "HEAD",
+                "git_url": "https://github.com/silimate/designs",
+                "inputMappings": {
+                    "src": ".",
+                    "constraint.sdc": "constraint.sdc"
+                }
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "autoconnect__openroad-metrics-1692309893709-synth_stat.rpt-openroad-yosys-synthesis-1692309880919-synth_stat.rpt",
+            "source": "openroad-yosys-synthesis-1692309880919",
+            "sourceHandle": "synth_stat.rpt",
+            "target": "openroad-metrics-1692309893709",
+            "targetHandle": "synth_stat.rpt"
+        },
+        {
+            "id": "autoconnect__openroad-metrics-1692309893709-design.rpt-openroad-yosys-synthesis-1692309880919-design.rpt",
+            "source": "openroad-yosys-synthesis-1692309880919",
+            "sourceHandle": "design.rpt",
+            "target": "openroad-metrics-1692309893709",
+            "targetHandle": "design.rpt"
+        },
+        {
+            "id": "autoconnect__openroad-yosys-synthesis-1692309880919-constraint.sdc-input-files-from-git-1692309848356-constraint.sdc",
+            "source": "input-files-from-git-1692309848356",
+            "sourceHandle": "constraint.sdc",
+            "target": "openroad-yosys-synthesis-1692309880919",
+            "targetHandle": "constraint.sdc"
+        },
+        {
+            "id": "autoconnect__openroad-yosys-synthesis-1692309880919-src-input-files-from-git-1692309848356-src",
+            "source": "input-files-from-git-1692309848356",
+            "sourceHandle": "src",
+            "target": "openroad-yosys-synthesis-1692309880919",
+            "targetHandle": "src"
+        },
+        {
+            "source": "openroad-yosys-synthesis-1692309880919",
+            "sourceHandle": "1_1_yosys.log",
+            "target": "log-importer-1692309904268",
+            "targetHandle": "<inherit>.log",
+            "id": "reactflow__edge-openroad-yosys-synthesis-16923098809191_1_yosys.log-log-importer-1692309904268<inherit>.log"
+        }
+    ],
+    "viewport": {
+        "x": 0,
+        "y": 0,
+        "zoom": 1
+    }
+}
