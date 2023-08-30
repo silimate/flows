@@ -73,8 +73,8 @@
                 "git_commit": "HEAD",
                 "git_url": "https://github.com/silimate/designs",
                 "inputMappings": {
-                    "src": ".",
-                    "constraint.sdc": "constraint.sdc"
+                    "src": "gcd",
+                    "constraint.sdc": "gcd/constraint.sdc"
                 }
             }
         }

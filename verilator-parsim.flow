@@ -110,13 +110,13 @@
                 "git_commit": "HEAD",
                 "git_url": "https://github.com/silimate/DACTests",
                 "inputMappings": {
-                    "asymmetric.cpp": "asymmetric.cpp",
-                    "constant.cpp": "constant.cpp",
-                    "design.v": "random_dac.v",
-                    "fadeout.cpp": "fadeout.cpp",
-                    "sine.cpp": "sine.cpp",
-                    "sweep.cpp": "sweep.cpp",
-                    "vectors.raw": "Slide.raw"
+                    "asymmetric.cpp": "DACTests/asymmetric.cpp",
+                    "constant.cpp": "DACTests/constant.cpp",
+                    "design.v": "DACTests/random_dac.v",
+                    "fadeout.cpp": "DACTests/fadeout.cpp",
+                    "sine.cpp": "DACTests/sine.cpp",
+                    "sweep.cpp": "DACTests/sweep.cpp",
+                    "vectors.raw": "DACTests/Slide.raw"
                 }
             },
             "dragging": false,
