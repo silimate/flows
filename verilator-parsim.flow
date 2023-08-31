@@ -108,7 +108,7 @@
                 "git_branch": "main",
                 "git_clone_depth": "1",
                 "git_commit": "HEAD",
-                "git_url": "https://github.com/silimate/DACTests",
+                "git_url": "https://github.com/silimate/flows",
                 "inputMappings": {
                     "asymmetric.cpp": "DACTests/asymmetric.cpp",
                     "constant.cpp": "DACTests/constant.cpp",
