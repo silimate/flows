@@ -73,7 +73,7 @@
                 "git_commit": "HEAD",
                 "git_url": "https://github.com/silimate/designs",
                 "inputMappings": {
-                    "src": "gcd",
+                    "design.v": "gcd/gcd.v",
                     "constraint.sdc": "gcd/constraint.sdc"
                 }
             }
@@ -102,11 +102,11 @@
             "targetHandle": "constraint.sdc"
         },
         {
-            "id": "autoconnect__openroad-yosys-synthesis-1692309880919-src-input-files-from-git-1692309848356-src",
+            "id": "autoconnect__openroad-yosys-synthesis-1692309880919-src/-input-files-from-git-1692309848356-design.v",
             "source": "input-files-from-git-1692309848356",
-            "sourceHandle": "src",
+            "sourceHandle": "design.v",
             "target": "openroad-yosys-synthesis-1692309880919",
-            "targetHandle": "src"
+            "targetHandle": "src/"
         },
         {
             "source": "openroad-yosys-synthesis-1692309880919",
